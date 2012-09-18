@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
 
-// This is a helper class which for a given script, creates the appropriate prefab and attaches the script as a component.
-// This ensures that the script has access to the right GameObjects and Unity doesn't complain!
-// Additionall the Cleanup methods destroys the game objects so they don't stay around in edit mode
-//
+// This is a helper class which for a given script, 
+// creates the appropriate prefab and attaches the script as a component.
+// This ensures that the script has access to the right GameObjects 
+// and Unity doesn't complain!
+// Additionally the Cleanup methods destroys the game objects
+// so they don't stay around in edit mode.
 public class ScriptInstantiator
 {
     private List<GameObject> GameObjects { get; set; }
