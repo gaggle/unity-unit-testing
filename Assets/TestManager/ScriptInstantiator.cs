@@ -29,7 +29,8 @@ public class ScriptInstantiator
         }
         else
         {
-            gameObject = GameObject.Instantiate(Resources.Load("Prefabs/" + typeof(T).Name)) as GameObject;
+            gameObject = GameObject.Instantiate(
+				Resources.Load("Prefabs/" + typeof(T).Name)) as GameObject;
         }
         
         gameObject.name = typeof(T).Name + " (Test)";
