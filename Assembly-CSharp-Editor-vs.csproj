@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{D264E265-B13A-F600-4350-FCB8E66A47FD}</ProjectGuid>
+	<ProjectGuid>{D3B4024F-FAB1-3200-70C9-B23128FE12ED}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,11 +44,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\TestManager\Assert.cs" />
-     <Compile Include="Assets\TestManager\ScriptInstantiator.cs" />
-     <Compile Include="Assets\TestManager\TestAttributes.cs" />
-     <Compile Include="Assets\TestManager\TestBase.cs" />
-     <Compile Include="Assets\TestManager\UnitTestManager.cs" />
+     <Compile Include="Assets\Editor\UnitTestWindow.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-vs.csproj">
+      <Project>{D264E265-B13A-F600-4350-FCB8E66A47FD}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

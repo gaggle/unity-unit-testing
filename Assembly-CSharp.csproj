@@ -44,7 +44,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\EditorExtensions\UnitTestWindow.cs" />
+     <Compile Include="Assets\TestManager\Assert.cs" />
+     <Compile Include="Assets\TestManager\ScriptInstantiator.cs" />
+     <Compile Include="Assets\TestManager\TestAttributes.cs" />
+     <Compile Include="Assets\TestManager\TestBase.cs" />
+     <Compile Include="Assets\TestManager\UnitTestManager.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
