@@ -22,7 +22,8 @@ public class UnitTestWindow : EditorWindow
     {
         //GUI.skin = Resources.Load("GUISkins/Tests") as GUISkin;
         
-        if (GUILayout.Button("Run Tests", GUILayout.Width(150), GUILayout.Height(40)))
+        if (GUILayout.Button("Run Tests", GUILayout.Width(150), 
+										  GUILayout.Height(40)))
         {
             unitTestManager.RunTests();
         }
@@ -31,9 +32,11 @@ public class UnitTestWindow : EditorWindow
         
             foreach (TestItem testItem in unitTestManager.TestItems)
             {
-                string style = testItem.Success == null ? "Label" : (testItem.Success.Value ? "Success" : "Failure");
+                string style = testItem.Success == null ? 
+					"Label" : (testItem.Success.Value ? "Success" : "Failure");
                 
-                string text = testItem.Name + "".PadLeft(70 - Math.Min(testItem.Name.Length, 68), '.');
+                string text = testItem.Name + 
+					"".PadLeft(70 - Math.Min(testItem.Name.Length, 68), '.');
                 if (testItem.Success != null)
                 {
                     text += testItem.Success.Value ? "Passed!" : "Failed!";
