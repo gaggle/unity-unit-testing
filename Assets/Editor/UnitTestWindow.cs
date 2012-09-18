@@ -20,7 +20,7 @@ public class UnitTestWindow : EditorWindow
 
     private void OnGUI()
     {
-        GUI.skin = Resources.Load("GUISkins/Tests") as GUISkin;
+        //GUI.skin = Resources.Load("GUISkins/Tests") as GUISkin;
         
         if (GUILayout.Button("Run Tests", GUILayout.Width(150), GUILayout.Height(40)))
         {
