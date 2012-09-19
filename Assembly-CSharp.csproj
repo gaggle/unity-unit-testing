@@ -44,6 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\TestCode.cs" />
      <Compile Include="Assets\TestManager\Assert.cs" />
      <Compile Include="Assets\TestManager\ScriptInstantiator.cs" />
      <Compile Include="Assets\TestManager\TestAttributes.cs" />
