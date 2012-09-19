@@ -1,14 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/UnitTestWindow.cs">
-    <Files>
-      <File FileName="Assets/Editor/UnitTestWindow.cs" Line="56" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
-            <Node name="Assets" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="TestManager" expanded="True" />
+            </Node>
           </Node>
           <Node name="Assembly-CSharp-Editor" expanded="True">
             <Node name="Assets" expanded="True">
