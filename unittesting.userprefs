@@ -6,7 +6,12 @@
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="EditorExtensions" expanded="True">
+              <Node name="TestManager" expanded="True" />
+            </Node>
+          </Node>
+          <Node name="Assembly-CSharp-Editor" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Editor" expanded="True">
                 <Node name="UnitTestWindow.cs" selected="True" />
               </Node>
             </Node>
